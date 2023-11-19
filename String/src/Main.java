@@ -35,5 +35,6 @@ public class Main {
         System.out.println("Test Case 2: " + stringProcessor.calculateExpression("(2+3)*4")); // 20.0
         System.out.println("Test Case 3: " + stringProcessor.calculateExpression("5*(2+3)")); // 25.0
         System.out.println("Test Case 4: " + stringProcessor.calculateExpression("(4+8)/2")); // 6.0
+        //System.out.println("Test Case 5: " + stringProcessor.calculateExpression("3*(5/0)")); // Throws ArithmeticException
     }
 }
